@@ -1,0 +1,296 @@
+{
+    /*********
+    ** General text
+    *********/
+    // HUD messages
+    "spell.learn": "You learned a spell: {{spellName}}",
+    "spell.learn.ancient": "You learned an ancient spell: {{spellName}}",
+
+    // menu tooltips
+    "tooltip.spell.known": "Click and drag to add {{spell}} to your spellbar on the bottom.",
+    "tooltip.spell.can-learn": "Click to spend one free point and learn {{spell}}.",
+    "tooltip.spell.need-free-points": "You have no free points to learn {{spell}}.",
+    "tooltip.spell.need-previous-levels": "You must learn the previous spell levels first.",
+    "tooltip.spell.name-and-level": "{{spellName}} level {{level}}",
+
+    // altar
+    "altar.click-message": "A glowing altar.",
+
+    // Skill info
+    "skill.name": "Wizardry",
+    "skill.perk1": "+{{bonus}} Mana",
+    "skill.perk_bonus1": "+{{bonus}} Mana",
+    "skill.perk2": "+{{bonus}} Mana Regen",
+    "skill.perk_bonus2": "+{{bonus}} Mana Regen",
+
+    "skill.perk0.1": "Base Mana set to 100",
+    "skill.perk0.2": "Can now set spells in Spell Slots by clicking Yoba's Altar in Pierre's shop.",
+    "skill.perk0.3": "Cast spells in Spell Slots by holding Q. Then press 1-4 to choose the spell.",
+    "skill.perk0.4": "Change spell hotbar sets by holding Q. Then press tab.",
+
+    "Magic5a.name": "Student",
+    "Magic5a.desc": "+2 spell upgrade points",
+    "Magic5b.name": "Acolyte",
+    "Magic5b.desc": "+0.5 mana regen per level",
+    "Magic10a1.name": "Adept",
+    "Magic10a1.desc": "+2 spell upgrade points",
+    "Magic10a2.name": "Scholar",
+    "Magic10a2.desc": "Adds a fifth spell per spell set.",
+    "Magic10b1.name": "Spiritualist",
+    "Magic10b1.desc": "+0.5 mana regen per level",
+    "Magic10b2.name": "Mystic",
+    "Magic10b2.desc": "+100 max mana",
+
+    //Food tooltip
+    "moonslime.Wizardry.Mana": "Mana",
+
+    "moonslime.Wizardry.buff.buffDescription": "Buff (Spell)",
+    "moonslime.Wizardry.magnetic_force.buffDescription": "Magnet Force (Spell)",
+    "moonslime.Wizardry.haste.buffDescription": "Haste (Spell)",
+
+
+    /*********
+    ** Radio station
+    *********/
+    "radio.static": "*static*",
+    "radio.analyzehints.1": "Looking to use magic to work around the farm? Try analyzing your tools.",
+    "radio.analyzehints.2": "Need a quick escape? I wonder if some boots will give you some inspiration.",
+    "radio.analyzehints.3": "I wonder if one could combine lightning with a bug? To study this, I'll need something that can harness the lightning's power while I'm close enough to a bug.",
+    "radio.analyzehints.4": "Some basic minerals seem to contain some magical energy.",
+    "radio.analyzehints.5": "The other day a meteor fell in my backyard. It seemed really mysterious.",
+    "radio.analyzehints.6": "Coffee is delicious. Why not recreate its effects with a spell?",
+    "radio.analyzehints.7": "The other day I saw someone sprout roots from the ground and keep a monster from moving, almost like a crop.",
+    "radio.analyzehints.8": "I bet you could shoot a blast of ice to slow something down. I wonder where you could study ice...?",
+    "radio.analyzehints.9": "I saw an dark altar in someone's house the other day. Well, I say 'house'. It was more like a hut.",
+    "radio.analyzehints.10": "Health potions sure are inconvenient to carry around. Maybe we can heal ourselves with magic?",
+    "radio.analyzehints.11": "Most people use ladders to descend underground, but I saw one person cast a spell and zip straight through the floor.",
+    "radio.analyzehints.12": "I saw someone cast a spell to regain mana!? It looked like it hurt. Rumor has it they learned this technique while fishing for Lava Eels.",
+
+
+
+    /*********
+    ** Magic spells
+    *********/
+    "moonslime.Wizardry.school.arcane.name": "Arcane",
+    "moonslime.Wizardry.school.toil.name": "Toil",
+    "moonslime.Wizardry.school.nature.name": "Nature",
+    "moonslime.Wizardry.school.life.name": "Life",
+    "moonslime.Wizardry.school.elemental.name": "Evocation",
+    "moonslime.Wizardry.school.eldritch.name": "Eldritch",
+    "moonslime.Wizardry.school.motion.name": "Motion",
+    "moonslime.Wizardry.school.uknown.name": "Unkown",
+
+    "moonslime.Wizardry.school.arcane.desc": "The Arcane school give you handy tools.\nAlong with a little extra insight into the world around you.",
+    "moonslime.Wizardry.school.toil.desc": "Not every school of magic is about hurling fire from your hands.\nThe School of Toil focuses on the practical.\nSpells that make everyday chores a little easier.",
+    "moonslime.Wizardry.school.nature.desc": "The Nature school weaves magic that lets plants and animals join in the fun.",
+    "moonslime.Wizardry.school.life.desc": "Life magic lends a helping hand;\npatching up aches, clearing away gloom,\nand giving you a spark of extra health.",
+    "moonslime.Wizardry.school.elemental.desc": "The Evocation School focuses on combat heavy spells.\nNot that other schools can't do combat, Evocation is just the best at it.",
+    "moonslime.Wizardry.school.eldritch.desc": "A dash of Eldritch magic can do wonders…\nbut it loves to collect a tiny toll in return.",
+    "moonslime.Wizardry.school.motion.desc": "Need a hand with moving around?\nThe Motion School can lend you a hand.",
+    "moonslime.Wizardry.school.uknown.desc": "Unkown",
+
+    "moonslime.Wizardry.spellmenu.leftsideTitle": "Spells",
+    "moonslime.Wizardry.spell.cost": "Cost: ",
+    "moonslime.Wizardry.spell.spellpoints": "Free Points: ",
+    "moonslime.Wizardry.spell.effect": "Effect: ",
+
+    "moonslime.Wizardry.spell.arcane:analyze.name": "Analyze",
+    "moonslime.Wizardry.spell.arcane:analyze.cost": "Free",
+    "moonslime.Wizardry.spell.arcane:analyze.desc": "Examine an item for magical inspiration.",
+    "moonslime.Wizardry.spell.arcane:analyze.hint": "No hint, as you start with this spell!",
+
+    "moonslime.Wizardry.spell.arcane:spellstones.name": "Spell Stones",
+    "moonslime.Wizardry.spell.arcane:spellstones.cost": "L1: 10m. L2: 10m,10h.\nL3: 10m,10e. L4: 30m,10h,10e.",
+    "moonslime.Wizardry.spell.arcane:spellstones.desc": "Create a magical stone based on level used.",
+    "moonslime.Wizardry.spell.arcane:spellstones.hint": "Can I imbue rocks with some magical energy?",
+
+    "moonslime.Wizardry.spell.elemental:magicmissle.name": "Magic Arrow",
+    "moonslime.Wizardry.spell.elemental:magicmissle.cost": "4 mana per level",
+    "moonslime.Wizardry.spell.elemental:magicmissle.desc": "A somewhat weak but piercing projectile.",
+    "moonslime.Wizardry.spell.elemental:magicmissle.hint": "No hint, as you start with this spell!",
+
+    "moonslime.Wizardry.spell.arcane:disenchant.name": "Disenchant",
+    "moonslime.Wizardry.spell.arcane:disenchant.cost": "3 mana per item",
+    "moonslime.Wizardry.spell.arcane:disenchant.desc": "Lower the quality of items. Gain half the difference in price.",
+    "moonslime.Wizardry.spell.arcane:disenchant.hint": "No hint, as you start with this spell!",
+
+    "moonslime.Wizardry.spell.arcane:enchant.name": "Enchant",
+    "moonslime.Wizardry.spell.arcane:enchant.cost": "3 mana per item, twice the price difference",
+    "moonslime.Wizardry.spell.arcane:enchant.desc": "Raise the quality of items.",
+    "moonslime.Wizardry.spell.arcane:enchant.hint": "No hint, as you start with this spell!",
+
+    "moonslime.Wizardry.spell.arcane:rewind.name": "Rewind",
+    "moonslime.Wizardry.spell.arcane:rewind.cost": "25 mana, a gold bar",
+    "moonslime.Wizardry.spell.arcane:rewind.desc": "Turn back time.",
+    "moonslime.Wizardry.spell.arcane:rewind.hint": "Find all other spells!",
+
+    "moonslime.Wizardry.spell.toil:cleardebris.name": "Clear Debris",
+    "moonslime.Wizardry.spell.toil:cleardebris.cost": "3 mana per object",
+    "moonslime.Wizardry.spell.toil:cleardebris.desc": "Clear debris around the targeted area.\nHigher levels can clear larger types of debris.",
+    "moonslime.Wizardry.spell.toil:cleardebris.hint": "Looking to use magic to work around the farm?\nTry analyzing your tools.",
+
+    "moonslime.Wizardry.spell.toil:till.name": "Till",
+    "moonslime.Wizardry.spell.toil:till.cost": "2 mana per tile",
+    "moonslime.Wizardry.spell.toil:till.desc": "Use magic to act as a Hoe on target area.\nHigher levels indicate a larger area.",
+    "moonslime.Wizardry.spell.toil:till.hint": "Looking to use magic to work around the farm?\nTry analyzing your tools.",
+
+    "moonslime.Wizardry.spell.toil:water.name": "Water",
+    "moonslime.Wizardry.spell.toil:water.cost": "1 mana per tile",
+    "moonslime.Wizardry.spell.toil:water.desc": "Use magic to act as a Watering Can on target area.\nHigher levels indicate a larger area.",
+    "moonslime.Wizardry.spell.toil:water.hint": "Looking to use magic to work around the farm?\nTry analyzing your tools.",
+
+    "moonslime.Wizardry.spell.motion:blink.name": "Blink",
+    "moonslime.Wizardry.spell.motion:blink.cost": "5 mana per tile travel",
+    "moonslime.Wizardry.spell.motion:blink.desc": "Teleport to the targeted area.",
+    "moonslime.Wizardry.spell.motion:blink.hint": "Find all other Toil spells.",
+
+    "moonslime.Wizardry.spell.toil:harvest.name": "Grass Removal",
+    "moonslime.Wizardry.spell.toil:harvest.cost": "5 mana per tile",
+    "moonslime.Wizardry.spell.toil:harvest.desc": "Clear a large area of grass and gives hay for each one removed.",
+    "moonslime.Wizardry.spell.toil:harvest.hint": "Looking to use magic to work around the farm?\nTry analyzing your tools",
+
+    "moonslime.Wizardry.spell.toil:collect.name": "Collect",
+    "moonslime.Wizardry.spell.toil:collect.cost": "3 mana per machine",
+    "moonslime.Wizardry.spell.toil:collect.desc": "Use to collect items from machines at a range!\nHigher levels increases collection radius.",
+    "moonslime.Wizardry.spell.toil:collect.hint": "Find all other Toil spells.",
+
+    "moonslime.Wizardry.spell.nature:lantern.name": "Thunderbug",
+    "moonslime.Wizardry.spell.nature:lantern.cost": "10 mana per level",
+    "moonslime.Wizardry.spell.nature:lantern.desc": "Summon a glowing bug that follows you and may charge lightning rods.\nHigher levels create more light.",
+    "moonslime.Wizardry.spell.nature:lantern.hint": "I wonder if one could combine lightning with a bug?\nTo study this, I'll need something that can harness the lightning's power while I'm close enough to a bug.",
+
+    "moonslime.Wizardry.spell.nature:fish_frenzy.name": "Fish Frenzy",
+    "moonslime.Wizardry.spell.nature:fish_frenzy.cost": "10 mana, first fish in inventory",
+    "moonslime.Wizardry.spell.nature:fish_frenzy.desc": "Creates a fish frenzy on water that can be fished in; Not guaranteed to work every time.",
+    "moonslime.Wizardry.spell.nature:fish_frenzy.hint": "Studying the magic behind Magic Bait might lead to something useful.",
+
+    "moonslime.Wizardry.spell.nature:crabrain.name": "Crab Rain",
+    "moonslime.Wizardry.spell.nature:crabrain.cost": "25 mana, a crab",
+    "moonslime.Wizardry.spell.nature:crabrain.desc": "Summons crabs from the sky that might explode.",
+    "moonslime.Wizardry.spell.nature:crabrain.hint": "Find all other Nature spells.",
+
+    "moonslime.Wizardry.spell.nature:bat.name": "Tracking Bat",
+    "moonslime.Wizardry.spell.nature:bat.cost": "5 mana, a bat wing",
+    "moonslime.Wizardry.spell.nature:bat.desc": "Summons a bat that flys to the closest thing.\nL1: Monsters\nL2: Artifact and Panning Spots",
+    "moonslime.Wizardry.spell.nature:bat.hint": "I wonder if a bat could help me out somehow?",
+
+    "moonslime.Wizardry.spell.nature:tendrils.name": "Tendrils",
+    "moonslime.Wizardry.spell.nature:tendrils.cost": "10 mana",
+    "moonslime.Wizardry.spell.nature:tendrils.desc": "Summon tendrils to stop a foe in their path.",
+    "moonslime.Wizardry.spell.nature:tendrils.hint": "The other day I saw someone sprout roots from the ground and keep a monster from moving,\nalmost like a crop.",
+
+    "moonslime.Wizardry.spell.elemental:shockwave.name": "Shockwave",
+    "moonslime.Wizardry.spell.elemental:shockwave.cost": "10 mana",
+    "moonslime.Wizardry.spell.elemental:shockwave.desc": "Jump into the air and slam down, sending out a shockwave.\nHigher levels are larger.",
+    "moonslime.Wizardry.spell.elemental:shockwave.hint": "Some basic minerals seem to contain some magical energy.",
+
+    "moonslime.Wizardry.spell.life:magnetic_force.name": "Magnetic Barrier",
+    "moonslime.Wizardry.spell.life:magnetic_force.cost": "5 mana per level",
+    "moonslime.Wizardry.spell.life:magnetic_force.desc": "A magnetic shield. Protect one self while attracting items.",
+    "moonslime.Wizardry.spell.life:magnetic_force.hint": "I hear a magnetic effect might be able to become a spell,\nbut I need a thing to study for it.\nI wonder what.",
+
+    "moonslime.Wizardry.spell.nature:photosynthesis.name": "Photosynthesis",
+    "moonslime.Wizardry.spell.nature:photosynthesis.cost": "100 mana, Fairy Dust",
+    "moonslime.Wizardry.spell.nature:photosynthesis.desc": "Advance all plants in target area a stage.",
+    "moonslime.Wizardry.spell.nature:photosynthesis.hint": "Find all other Nature spells.",
+
+    "moonslime.Wizardry.spell.life:heal.name": "Heal",
+    "moonslime.Wizardry.spell.life:heal.cost": "25% mana",
+    "moonslime.Wizardry.spell.life:heal.desc": "Restore 16% Health + extra based on spell level.",
+    "moonslime.Wizardry.spell.life:heal.hint": "Health potions sure are inconvenient to carry around.\nMaybe we can heal ourselves with magic?",
+
+
+    "moonslime.Wizardry.spell.life:healarea.name": "Healing Area",
+    "moonslime.Wizardry.spell.life:healarea.cost": "25% mana",
+    "moonslime.Wizardry.spell.life:healarea.desc": "Create an area that will heal all players in it for 60 seconds.\nHigher levels increase the area",
+    "moonslime.Wizardry.spell.life:healarea.hint": "I wonder where I can learn to help heal others with Life magic?",
+
+    "moonslime.Wizardry.spell.motion:haste.name": "Haste",
+    "moonslime.Wizardry.spell.motion:haste.cost": "40 mana per level, coffee bean",
+    "moonslime.Wizardry.spell.motion:haste.desc": "Move as swift as the wind. Higher levels make you move faster for longer.",
+    "moonslime.Wizardry.spell.motion:haste.hint": "Coffee is delicious.\nWhy not recreate its effects with a spell?",
+
+    "moonslime.Wizardry.spell.motion:evac.name": "Evac",
+    "moonslime.Wizardry.spell.motion:evac.cost": "25 mana",
+    "moonslime.Wizardry.spell.motion:evac.desc": "Teleport to where you entered the area.",
+    "moonslime.Wizardry.spell.motion:evac.hint": "Need a quick escape?\nI wonder if some boots will give you some inspiration.",
+
+    "moonslime.Wizardry.spell.life:cleanse.name": "Cleanse",
+    "moonslime.Wizardry.spell.life:cleanse.cost": "25 mana",
+    "moonslime.Wizardry.spell.life:cleanse.desc": "Remove All buffs and debuffs from one's self.",
+    "moonslime.Wizardry.spell.life:cleanse.hint": "There must be a way to cleanse oneself of enhancements.\nLike a slippery squid.",
+
+    "moonslime.Wizardry.spell.life:buff.name": "Buff",
+    "moonslime.Wizardry.spell.life:buff.cost": "25 mana per level",
+    "moonslime.Wizardry.spell.life:buff.desc": "Improve every skill. Higher levels improve yourself more for longer.",
+    "moonslime.Wizardry.spell.life:buff.hint": "Find all other Life spells.",
+
+    "moonslime.Wizardry.spell.elemental:fireball.name": "Fireball",
+    "moonslime.Wizardry.spell.elemental:fireball.cost": "6 mana per level",
+    "moonslime.Wizardry.spell.elemental:fireball.desc": "Shoot a ball of fire that explodes against enemies.\nHigher levels improve damage.",
+    "moonslime.Wizardry.spell.elemental:fireball.hint": "Some basic minerals seem to contain some magical energy.",
+
+    "moonslime.Wizardry.spell.elemental:frostbolt.name": "Frostbolt",
+    "moonslime.Wizardry.spell.elemental:frostbolt.cost": "6 mana per level",
+    "moonslime.Wizardry.spell.elemental:frostbolt.desc": "Shoot a ball of snow that freezes monsters.\nHigher levels improve damage.",
+    "moonslime.Wizardry.spell.elemental:frostbolt.hint": "I bet you could shoot a blast of ice to slow something down.\nI wonder where you could study ice...?",
+
+    "moonslime.Wizardry.spell.motion:descend.name": "Descend",
+    "moonslime.Wizardry.spell.motion:descend.cost": "25 mana per level",
+    "moonslime.Wizardry.spell.motion:descend.desc": "Descend in the mines.\nHigher levels increase the floors passed, with no additional mana cost.",
+    "moonslime.Wizardry.spell.motion:descend.hint": "Most people use ladders to descend underground,\nbut I saw one person cast a spell and zip straight through the floor.",
+
+    "moonslime.Wizardry.spell.toil:kiln.name": "Kiln Wood",
+    "moonslime.Wizardry.spell.toil:kiln.cost": "5 Mana increases rapidly with level, Wood or Driftwood",
+    "moonslime.Wizardry.spell.toil:kiln.desc": "Turn wood into coal.\nHigher levels reduce wood required at an increasing rate.",
+    "moonslime.Wizardry.spell.toil:kiln.hint": "Is there a way we can use magic to generate coal?",
+
+    "moonslime.Wizardry.spell.motion:teleport.name": "Teleport",
+    "moonslime.Wizardry.spell.motion:teleport.cost": "10 mana, Travel Core",
+    "moonslime.Wizardry.spell.motion:teleport.desc": "When outside, teleport to outdoor locations you been to.",
+    "moonslime.Wizardry.spell.motion:teleport.hint": "Find all other Elemental spells.",
+
+    "moonslime.Wizardry.spell.elemental:meteor.name": "Meteor",
+    "moonslime.Wizardry.spell.elemental:meteor.cost": "Iridium Ore",
+    "moonslime.Wizardry.spell.elemental:meteor.desc": "Crash a large meteor into the earth.",
+    "moonslime.Wizardry.spell.elemental:meteor.hint": "I wonder if anything from space can give insperation for a spell.",
+
+    "moonslime.Wizardry.spell.eldritch:bloodmana.name": "Blood Mana",
+    "moonslime.Wizardry.spell.eldritch:bloodmana.cost": "25% Health",
+    "moonslime.Wizardry.spell.eldritch:bloodmana.desc": "Restore 16% Health along with extra based on spell level.",
+    "moonslime.Wizardry.spell.eldritch:bloodmana.hint": "I saw someone cast a spell to regain mana!?\nIt looked like it hurt.\nRumor has it they learned this technique while fishing for Lava Eels.",
+
+    "moonslime.Wizardry.spell.eldritch:lucksteal.name": "Luck Steal",
+    "moonslime.Wizardry.spell.eldritch:lucksteal.cost": "The happiness of your loved ones",
+    "moonslime.Wizardry.spell.eldritch:lucksteal.desc": "Maxout your daily luck.",
+    "moonslime.Wizardry.spell.eldritch:lucksteal.hint": "I saw an dark altar in someone's house the other day.\nWell, I say 'house'.\nIt was more like a hut.",
+
+    "moonslime.Wizardry.spell.eldritch:charm.name": "Charm",
+    "moonslime.Wizardry.spell.eldritch:charm.cost": "15 mana, 25 health per person",
+    "moonslime.Wizardry.spell.eldritch:charm.desc": "Sacrifice Health to make people near you like you.\n Higher level increases the area.",
+    "moonslime.Wizardry.spell.eldritch:charm.hint": "A thing that attracts others might be a useful thing to study...",
+
+    "moonslime.Wizardry.spell.eldritch:spirit.name": "Spirit",
+    "moonslime.Wizardry.spell.eldritch:spirit.cost": "50 mana, 20% helath",
+    "moonslime.Wizardry.spell.eldritch:spirit.desc": "Summon a lost spirit to fight for you.\nScales with Combat and Wizardry level.",
+    "moonslime.Wizardry.spell.eldritch:spirit.hint": "Find all other Eldritch spells.",
+
+
+
+
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+
+
+    "config.VoidSchool": "Enable Blink Spell",
+    "config.VoidSchool.tooltip": "REQUIRES GAME RESTART.\nAllows the user to learn the spell blink.\nBlink can sometimes cause softlocks, user beware.",
+
+
+    "config.Magic_arrow_base": "Magic Arrow Base Damage",
+    "config.Magic_arrow_base.tooltip": "REQUIRES GAME RESTART.\nThe base damage of this spell.\n For reference, Slingshot is 1, Master slingshot is 2, Galaxy Slingshot is 4.",
+
+    "config.Magic_arrow_scale": "Magic Arrow Ammo Damage",
+    "config.Magic_arrow_scale.tooltip": "REQUIRES GAME RESTART.\nThe base 'ammo' damage of this spell that scales per level. So Level times this value = ammo damage.\nFor reference: Copper ore is 10, Iron is
