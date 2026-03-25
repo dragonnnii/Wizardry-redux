@@ -1,0 +1,588 @@
+﻿{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "moonslime.Wizardry.HudIcon": {
+                    "Name": "Placeholder Item",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.placeholder_item.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.placeholder_item.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 1,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Travel_Core": {
+                    "Name": "Placeholder Item",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Travel_Core.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Travel_Core.description}}",
+                    "Type": "Basic",
+                    "Category": 2,
+                    "Price": 100,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "SpriteIndex": 2,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "color_white"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Magic_Elixir": {
+                    "Name": "Magic Elixir",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Magic_Elixir.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Magic_Elixir.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 1000,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "SpriteIndex": 1,
+                    "Edibility": 80,
+                    "IsDrink": true,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable",
+                        "moonslime.ManaBarApi.ManaRestore/100",
+                        "color_blue"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Magic_Potion": {
+                    "Name": "Magic Potion",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Magic_Potion.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Magic_Potion.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 500,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "SpriteIndex": 3,
+                    "Edibility": 40,
+                    "IsDrink": true,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable",
+                        "moonslime.ManaBarApi.ManaRestore/50",
+                        "color_blue"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Magic_Stone:Mana": {
+                    "Name": "Magic_Stone:Mana",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Magic_Stone:Mana.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Magic_Stone:Mana.description}}",
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 1,
+                    "SpriteIndex": 4,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable",
+                        "moonslime.ManaBarApi.ManaFill/5",
+                        "color_blue"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Magic_Stone:Health": {
+                    "Name": "Magic_Stone:Health",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Magic_Stone:Health.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Magic_Stone:Health.description}}",
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 1,
+                    "SpriteIndex": 10,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable",
+                        "color_red"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Magic_Stone:Energy": {
+                    "Name": "Magic_Stone:Energy",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Magic_Stone:Energy.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Magic_Stone:Energy.description}}",
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 1,
+                    "SpriteIndex": 7,
+                    "ColorOverlayFromNextIndex": false,
+                    "Edibility": 5,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": true,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": false,
+                    "ExcludeFromShippingCollection": false,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "not_placeable",
+                        "color_green"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.blank_scroll": {
+                    "Name": "elemental:fireball",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.blank_scroll.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.blank_scroll.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": null
+                },
+                "moonslime.Wizardry.Scroll_Fireball": {
+                    "Name": "elemental:fireball",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Fireball.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Fireball.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 1,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "elemental:fireball" }
+                },
+                "moonslime.Wizardry.Scroll_Buff": {
+                    "Name": "life:buff",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Buff.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Buff.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 2,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "life:buff" }
+                },
+                "moonslime.Wizardry.Scroll_Bloodmana": {
+                    "Name": "eldritch:bloodmana",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Bloodmana.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Bloodmana.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 3,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "eldritch:bloodmana" }
+                },
+                "moonslime.Wizardry.Scroll_Evac": {
+                    "Name": "motion:evac",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Evac.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Evac.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 4,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "motion:evac" }
+                },
+                "moonslime.Wizardry.Scroll_Meteor": {
+                    "Name": "elemental:meteor",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Meteor.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Meteor.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 5,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "elemental:meteor" }
+                },
+                "moonslime.Wizardry.Scroll_Thunderbug": {
+                    "Name": "nature:lantern",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Thunderbug.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Thunderbug.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 6,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "nature:lantern" }
+                },
+                "moonslime.Wizardry.Scroll_Rewind": {
+                    "Name": "arcane:rewind",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Rewind.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Rewind.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 10000,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 7,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "arcane:rewind" }
+                },
+                "moonslime.Wizardry.Scroll_Descend": {
+                    "Name": "motion:descend",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Descend.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Descend.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 8,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "motion:descend" }
+                },
+                "moonslime.Wizardry.Scroll_Heal": {
+                    "Name": "life:heal",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Heal.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Heal.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 6,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 9,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "life:heal" }
+                },
+                "moonslime.Wizardry.Scroll_Crabrain": {
+                    "Name": "nature:crabrain",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Crabrain.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Crabrain.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 106,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 10,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "nature:crabrain" }
+                },
+                "moonslime.Wizardry.Scroll_Monster_Tracking": {
+                    "Name": "nature:bat",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Monster_Tracking.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Monster_Tracking.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 5,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 11,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "nature:bat" }
+                },
+                "moonslime.Wizardry.Scroll_Artifact_Tracking": {
+                    "Name": "nature:bat1",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.Scroll_Artifact_Tracking.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.Scroll_Artifact_Tracking.description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 5,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Scrolls",
+                    "SpriteIndex": 12,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": false,
+                    "ContextTags": [
+                        "scroll_item",
+                        "moonslime_spellscroll",
+                        "not_placeable",
+                        "color_white"
+                    ],
+                    "CustomFields": { "moonslime.Wizardry.analyze": "nature:bat" }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "moonslime.Wizardry.Magic_Potion": {
+                    "EatenHealthRestoredOverride": 0,
+                    "EatenStaminaRestoredOverride": 50
+                },
+                "moonslime.Wizardry.Magic_Elixir": {
+                    "EatenHealthRestoredOverride": 50,
+                    "EatenStaminaRestoredOverride": 0
+                },
+                "moonslime.Wizardry.Magic_Stone:Health": {
+                    "EatenHealthRestoredOverride": 5,
+                    "EatenStaminaRestoredOverride": 0
+                },
+                "moonslime.Wizardry.Magic_Stone:Energy": {
+                    "EatenHealthRestoredOverride": 0,
+                    "EatenStaminaRestoredOverride": 5
+                },
+                "moonslime.Wizardry.Magic_Stone:Mana": {
+                    "EatenHealthRestoredOverride": 0,
+                    "EatenStaminaRestoredOverride": 0
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "moonslime.Wizardry.CraftableSpellAltar": "moonslime.Wizardry.CraftableSpellAltar/decor/1 2/1 1/1/1000/-1/{{i18n:moonslime.Wizardry.CraftableSpellAltar}}/5/Mods\\moonslime.WizardrySkill\\objects\\Items"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+            "Entries": {
+                "moonslime.Wizardry.CraftableSpellAltar": {
+                    "TileProperties": {
+                        "0, 0": {
+                            "Buildings": {
+                                "Action": "MagicAltar"
+                            }
+                        }
+                    },
+                    "DescriptionOverride": "{{i18n:moonslime.Wizardry.CraftableSpellAltar.description}}"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "moonslime.Wizardry.ManaSink": {
+                    "Name": "Focus Expander",
+                    "DisplayName": "{{i18n:moonslime.Wizardry.ManaSink.name}}",
+                    "Description": "{{i18n:moonslime.Wizardry.ManaSink.description}}",
+                    "Price": 50,
+                    "Texture": "Mods/moonslime.WizardrySkill/objects/Items",
+                    "SpriteIndex": 3
+                }
+            }
+        }
+    ]
+}
