@@ -1,0 +1,26 @@
+﻿{
+    "Name": "[CP] Wizardry Skill",
+    "Author": "moonslime",
+    "Version": "1.11.0",
+    "Description": "Magic Skill Content Patcher",
+    "UniqueID": "moonslime.WizardrySkill.CP",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [
+        "-1"
+    ],
+    "Dependencies": [
+        {
+            "UniqueID": "Pathoschild.ContentPatcher"
+        },
+        {
+            "UniqueID": "sb.AltarYoba",
+            "IsRequired": false
+        },
+        {
+            "UniqueID": "spacechase0.SpaceCore",
+            "MinimumVersion": "1.28.0"
+        }
+    ]
+}
