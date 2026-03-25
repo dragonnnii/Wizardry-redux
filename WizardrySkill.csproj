@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\spacecore.targets" />
+  <Import Project="..\common.targets" />
+  <PropertyGroup>
+    <Name>Wizardry</Name>
+    <Description>Magic Revisted.</Description>
+    <Version>1.10.3</Version>
+    <UpdateKeys>Nexus:38383</UpdateKeys>
+  </PropertyGroup>
+  <ItemGroup>
+    <SMAPIDependency Include="Pathoschild.ContentPatcher" MinimumVersion="2.8.0" Required="true" />
+    <SMAPIDependency Include="moonslime.ManaBarApi" MinimumVersion="1.0.0" Required="true" />
+    <SMAPIDependency Include="spacechase0.GenericModConfigMenu" Required="false" />
+    <SMAPIDependency Include="DaLion.Professions" Required="false" />
+    <SMAPIDependency Include="spacechase0.SpaceCore" version="1.28.0" Required="true" />
+    <SMAPIDependency Include="moonslime.WizardrySkill.CP" version="1.9.2" Required="true" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModTranslationClassBuilder" Version="2.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="i18n\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>
+    </LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UseMauiEssentials>false</UseMauiEssentials>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+</Project>

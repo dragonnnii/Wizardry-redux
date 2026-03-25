@@ -1,0 +1,38 @@
+{
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "moonslime.WizardrySkill",
+  "Name": "Wizardry",
+  "Author": "moonslime",
+  "Version": "1.10.3",
+  "Description": "Magic Revisted.",
+  "MinimumApiVersion": "4.3.2",
+  "MinimumGameVersion": "1.6.15",
+  "EntryDll": "WizardrySkill.dll",
+  "Dependencies": [
+    {
+      "UniqueID": "DaLion.Professions",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "moonslime.ManaBarApi"
+    },
+    {
+      "UniqueID": "moonslime.WizardrySkill.CP",
+      "MinimumVersion": "1.9.2"
+    },
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    {
+      "UniqueID": "spacechase0.GenericModConfigMenu",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "MinimumVersion": "1.28.0"
+    }
+  ],
+  "UpdateKeys": [
+    "Nexus:38383"
+  ]
+}
